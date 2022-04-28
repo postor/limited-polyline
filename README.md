@@ -7,8 +7,14 @@ use case: draw track for moving thing on map, avoid costing too much memory
 
 ## usage | 使用
 
+API:
 ```
-let line = new LimitedPolyline([...points],5000)
+```
+
+example
+```
+import { simple2d, LimitedPolyline } from 'limited-polyline'
+let line = new LimitedPolyline([...points],5000,simple2d)
 line.push([x,y]) // add to end, if total points larger than limit drop one | 追加到末尾，如果总点数超出限制则丢掉一个不起眼的点
 line.shift() // shift first | 取出队头
 

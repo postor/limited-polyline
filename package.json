@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "double-linked-sorted-tree": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/priorityqueuejs": "^1.0.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "name": "limited-polyline",
+  "description": "limit polyline points and keep the shape as possible | 在尽量保持形状的情况下限制 polyline 点的数量",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/limited-polyline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/limited-polyline/issues"
+  },
+  "homepage": "https://github.com/postor/limited-polyline#readme"
+}
