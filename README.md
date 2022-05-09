@@ -5,7 +5,7 @@ use case: draw track for moving thing on map, avoid costing too much memory
 
 场景：在地图上绘制运动物体的实时轨迹，避免占用内存过多内存
 
-![https://img.youtube.com/vi/unsaPHuP1Dk/hqdefault.jpg](https://youtube.com/shorts/unsaPHuP1Dk?feature=share)
+![https://youtube.com/shorts/unsaPHuP1Dk](https://img.youtube.com/vi/unsaPHuP1Dk/hqdefault.jpg)
 
 example: 
 
